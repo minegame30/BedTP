@@ -19,7 +19,7 @@ public class EasySpawn extends JavaPlugin{
 				if(player.getBedSpawnLocation()!=null){
 					player.teleport(player.getBedSpawnLocation());
 					player.sendMessage("Teleporting to your bed.");
-				}else sender.sendMessage("Your bed is missing or obstructed..");
+				}else sender.sendMessage("Your bed is missing or obstructed...");
 				return true;
 			}
 		}
