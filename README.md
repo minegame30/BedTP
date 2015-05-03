@@ -7,3 +7,7 @@ Upon running this command, the user will be teleported to the bed of which they 
 
 	
 	/bed   ---   Teleports player to their bed
+	
+#Permissions
+
+	Bed.tp   ---   Teleports player to their bed
