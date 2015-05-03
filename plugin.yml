@@ -1,0 +1,13 @@
+name: BedTP
+main: uk.theendlessnet.mine.BedTP
+version: 1.8.3
+commands:
+  bed:
+    description: Teleports you to your bed
+    usage: /bed
+    permission: bed.tp
+    permission-message: Sorry, you do not have permission to teleport to your bed.
+permissions:
+  bed.tp:
+    description: Teleports you to your bed
+    default: true
